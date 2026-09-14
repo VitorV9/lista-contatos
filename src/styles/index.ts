@@ -6,6 +6,7 @@ const estiloGlobal = createGlobalStyle`
       padding: 0;
       box-sizing: border-box;
       font-family: Roboto, sans-seriff;
+      list-style: none;
     }
 `
 
