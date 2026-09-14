@@ -3,7 +3,7 @@ import { Container } from './styles'
 
 const tarefas = [
   {
-    titulo: 'estudar TS',
+    titulo: 'Estudar TS',
     descricao: 'Ver a aula 3 da Ebac',
     prioridade: 'importante',
     status: 'pendente'
