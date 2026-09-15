@@ -27,7 +27,7 @@ const initialState: TarefaState = {
       descricao: 'Estudar Typescript através do módulo 7',
       prioridade: enums.Prioridade.NORMAL,
       status: enums.Status.CONCLUIDA,
-      titulo: 'Estudar JavaScript'
+      titulo: 'Estudar Typescript'
     }
   ]
 }
