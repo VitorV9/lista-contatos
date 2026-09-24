@@ -1,7 +1,9 @@
-📇 Lista de Contatos
+# 📇 Lista de Contatos
+
 Este é o meu quinto projeto prático desenvolvido para o bootcamp da EBAC. O objetivo desta aplicação é aplicar conceitos avançados de React, criando uma agenda de contatos funcional com foco em gerenciamento de estado global e estilização componentizada.
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
+
 A aplicação consiste em um gerenciador de contatos do tipo CRUD (Create, Read, Update, Delete). Cada contato salvo na agenda armazena os seguintes dados: Nome completo, E-mail e Telefone.
 
 Adição: Inserção de novos contatos na lista através de um formulário.
@@ -10,7 +12,8 @@ Edição: Alteração dos dados (nome, e-mail ou telefone) de um contato previam
 
 Remoção: Exclusão rápida de contatos da agenda.
 
-🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
+
 O projeto foi construído utilizando as seguintes ferramentas e bibliotecas:
 
 React: Biblioteca principal para a construção da interface de usuário.
@@ -21,26 +24,30 @@ Styled Components: Biblioteca de CSS-in-JS utilizada para a estilização isolad
 
 TypeScript: Utilizado para garantir a tipagem estática dos dados de cada contato e das propriedades dos componentes, evitando erros em tempo de execução.
 
-⚙️ Como executar o projeto na sua máquina
+## ⚙️ Como executar o projeto na sua máquina
+
 Certifique-se de ter o Node.js instalado. Em seguida, siga o passo a passo abaixo no seu terminal:
 
 Clone este repositório:
 
 ```bash
 git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
-````
+```
 
 Acesse a pasta do projeto:
+
 ```bash
 cd NOME_DO_REPOSITORIO
-````
+```
 
 Instale as dependências:
+
 ```bash
 npm install
-````
+```
 
 Inicie o servidor de desenvolvimento:
+
 ```bash
 npm start
-````
+```
