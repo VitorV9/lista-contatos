@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+📇 Lista de Contatos
+Este é o meu quinto projeto prático desenvolvido para o bootcamp da EBAC. O objetivo desta aplicação é aplicar conceitos avançados de React, criando uma agenda de contatos funcional com foco em gerenciamento de estado global e estilização componentizada.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Funcionalidades
+A aplicação consiste em um gerenciador de contatos do tipo CRUD (Create, Read, Update, Delete). Cada contato salvo na agenda armazena os seguintes dados: Nome completo, E-mail e Telefone.
 
-## Available Scripts
+Adição: Inserção de novos contatos na lista através de um formulário.
 
-In the project directory, you can run:
+Edição: Alteração dos dados (nome, e-mail ou telefone) de um contato previamente cadastrado.
 
-### `npm start`
+Remoção: Exclusão rápida de contatos da agenda.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🛠 Tecnologias Utilizadas
+O projeto foi construído utilizando as seguintes ferramentas e bibliotecas:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+React: Biblioteca principal para a construção da interface de usuário.
 
-### `npm test`
+Redux (Redux Toolkit): Responsável pelo gerenciamento do estado global da aplicação, armazenando a lista de contatos e lidando com as ações (adicionar, editar, remover) sem a necessidade de prop drilling.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Styled Components: Biblioteca de CSS-in-JS utilizada para a estilização isolada e dinâmica dos componentes.
 
-### `npm run build`
+TypeScript: Utilizado para garantir a tipagem estática dos dados de cada contato e das propriedades dos componentes, evitando erros em tempo de execução.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+⚙️ Como executar o projeto na sua máquina
+Certifique-se de ter o Node.js instalado. Em seguida, siga o passo a passo abaixo no seu terminal:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone este repositório:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+````
 
-### `npm run eject`
+Acesse a pasta do projeto:
+```bash
+cd NOME_DO_REPOSITORIO
+````
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Instale as dependências:
+```bash
+npm install
+````
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Inicie o servidor de desenvolvimento:
+```bash
+npm start
+````
