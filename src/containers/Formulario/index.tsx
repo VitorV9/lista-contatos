@@ -6,7 +6,7 @@ import { BotaoSalvar, MainContainer, Titulo } from '../../styles'
 import { Campo } from '../../styles'
 import { Form, Opcoes, Opcao } from './styles'
 import * as enums from '../../utils/enums/Tarefa'
-import { cadastrar } from '../../store/reducers/tarefas'
+import { cadastrar } from '../../store/reducers/contato'
 
 const Formulario = () => {
   const dispatch = useDispatch()

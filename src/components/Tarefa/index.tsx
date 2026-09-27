@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 
 import * as S from './styles'
 
-import { remover, editar, alteraStatus } from '../../store/reducers/tarefas'
+import { remover, editar, alteraStatus } from '../../store/reducers/contato'
 import TarefaClass from '../../models/Contato'
 import { Botao, BotaoSalvar } from '../../styles'
 
