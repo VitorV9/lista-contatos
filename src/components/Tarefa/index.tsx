@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import * as S from './styles'
 
 import { remover, editar, alteraStatus } from '../../store/reducers/tarefas'
-import TarefaClass from '../../models/Tarefa'
+import TarefaClass from '../../models/Contato'
 import { Botao, BotaoSalvar } from '../../styles'
 
 import * as enums from '../../utils/enums/Tarefa'
