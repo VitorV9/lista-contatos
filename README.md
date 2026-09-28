@@ -31,13 +31,13 @@ Certifique-se de ter o Node.js instalado. Em seguida, siga o passo a passo abaix
 Clone este repositório:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+git clone https://github.com/VitorV9/lista-contatos.git
 ```
 
 Acesse a pasta do projeto:
 
 ```bash
-cd NOME_DO_REPOSITORIO
+cd lista-contatos
 ```
 
 Instale as dependências:
